@@ -1,0 +1,52 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./style.scss";
+
+.header {
+    background-color: $header-background-color;
+
+    .container {
+        .header-content {
+            .phone-number {
+                color: $white;
+
+                label {
+                    font-size: small;
+                }
+
+                a {
+                    text-decoration: none;
+                    font-family: 'shabnam';
+                    font-size: small;
+                    color: $white;
+                    margin-top: 5px;
+                }
+            }
+
+            .header-links {
+                .header-menu {
+                    margin-left: 80px;
+
+                    ul {
+                        li {
+                            a {
+                                color: $white;
+                                font-size: small;
+
+                                &:hover {
+                                    background-color: rgba($color: $gray-200, $alpha: 0.2);
+                                    border-radius: 10px;
+                                    // opacity: 0.2;
+                                    color: $white;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .social-media {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
