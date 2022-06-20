@@ -3,7 +3,8 @@ import { faPhoneFlip } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram, faTwitter, faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
 
 //styles
-import "../assets/styles/header.scss"
+import "../assets/styles/header.scss";
+
 function Header() {
 	return (
 		<div className="header py-2">
