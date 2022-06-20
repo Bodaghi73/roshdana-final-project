@@ -1,0 +1,46 @@
+@import "./style.scss";
+
+.bord {
+    height: 100vh;
+    background-image: url(../imgs/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .container {
+        .top-section {
+            .logo {
+                img {
+                    width: 120px;
+                    height: 170px;
+                    object-fit: contain;
+                }
+            }
+
+            nav {
+                .collapse {
+                    ul {
+                        li {
+                            a {
+                                display: flex;
+                                align-items: center;
+                                font-family: 'shabnam';
+                                font-size: small;
+                                color: $black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .start {
+            button {
+                padding: 10px 20px;
+                font-family: 'shabnam';
+                font-size: small;
+                color: $yellow-color;
+                outline: none;
+            }
+        }
+    }
+}

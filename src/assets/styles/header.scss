@@ -1,8 +1,7 @@
-@import "~bootstrap/scss/bootstrap";
 @import "./style.scss";
 
 .header {
-    background-color: $header-background-color;
+    background-color: $background-color;
 
     .container {
         .header-content {
@@ -34,8 +33,7 @@
 
                                 &:hover {
                                     background-color: rgba($color: $gray-200, $alpha: 0.2);
-                                    border-radius: 10px;
-                                    // opacity: 0.2;
+                                    border-radius: 50px;
                                     color: $white;
                                 }
                             }
