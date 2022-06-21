@@ -1,0 +1,35 @@
+@import "./style.scss";
+.buy-courses{
+    background-color: $green-dark-color;
+
+    .container{
+        .buy-course-title{
+            position: relative;
+            color: $white;
+
+            span {
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 100px;
+                    height: 5px;
+                    background-color: $yellow-color;
+                    bottom: -15px;
+                    right: 0;
+                }
+            }
+        }
+
+        section{
+            article{
+                margin-bottom: 50px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
