@@ -86,7 +86,7 @@ function Menu() {
 					
 				</div>
 				<div className="start mb-5">
-					<button className="border-0 rounded-pill">شروع کنید</button>
+					<button>شروع کنید</button>
 				</div>
 			</div>
 		</div>

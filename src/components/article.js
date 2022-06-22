@@ -15,7 +15,7 @@ function Article() {
 							این یک متن آزمایشی برای تست جانمایی متون است و هیچ کاربرد دیگری ندارد. این یک متن آزمایشی برای تست جانمایی متون است و هیچ کاربرد دیگری
 							ندارد. این یک متن آزمایشی برای تست جانمایی متون است و هیچ کاربرد دیگری ندارد.{" "}
 						</p>
-						<button className="rounded-pill">بیشتر بدانید</button>
+						<button>بیشتر بدانید</button>
 					</article>
 				</div>
 				<div className="col-md-6 d-flex justify-content-center align-items-center py-5">

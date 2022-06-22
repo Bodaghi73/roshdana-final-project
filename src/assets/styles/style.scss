@@ -4,19 +4,26 @@
     font-family: 'shabnam';
 }
 $background-color: #174b44;
+$underline-color:#edbf47;
 $yellow-color:#c39a3e;
 $gray-color:#969696;
 $gray-dark-color:#928a74;
 $green-dark-color:#596758;
 $blue-white-color:#f7f7f7;
 
+%button{
+    padding: 10px 20px;
+    font-size: small;
+    border-radius: 50px;
+    outline: none;
+}
 
 %after-span{
     position: absolute;
     content: "";
     width: 100px;
     height: 5px;
-    background-color: $yellow-color;
+    background-color: $underline-color;
     bottom: -15px;
     right: 0;
 }

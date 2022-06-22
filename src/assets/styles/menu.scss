@@ -34,10 +34,9 @@
 
         .start {
             button {
-                padding: 10px 20px;
-                font-size: small;
                 color: $yellow-color;
-                outline: none;
+                border: none;
+                @extend %button;
             }
         }
     }

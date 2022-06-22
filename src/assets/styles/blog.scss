@@ -1,0 +1,64 @@
+@import "./style.scss";
+
+.blog {
+    background-color: $yellow-color;
+
+    .container {
+        .blog-title {
+            position: relative;
+            color: $white;
+
+            span {
+                &::after {
+                    @extend %after-span;
+                }
+            }
+        }
+
+        .blog-content {
+            .more-button {
+                button {
+                    background-color: $white;
+                    color: $yellow-color;
+                    border: none;
+                    @extend %button;
+                }
+            }
+
+            .blog-items {
+                article {
+                    margin-bottom: 50px;
+                    .blog-post {
+                        width: 100%;
+                        height: 100%;
+                        background-color: $white;
+
+                        img {
+                            width: 100%;
+                            height: 170px;
+                            object-fit: cover;
+                        }
+
+                        .blog-detail {
+                            padding: 20px;
+
+                            span {
+                                color: $gray-color;
+                                font-size: small;
+                            }
+
+                            .data {
+                                .clock {
+                                    color: red;
+                                    padding-left: 10px;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+        }
+    }
+}

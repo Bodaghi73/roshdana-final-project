@@ -19,12 +19,10 @@
                 }
 
                 button {
-                    padding: 10px 20px;
                     background-color: transparent;
                     color: $white;
-                    font-size: small;
                     border: 1px solid $white;
-                    outline: none;
+                    @extend %button;
                 }
 
                 img {
