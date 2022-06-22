@@ -5,7 +5,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import "../assets/styles/menu.scss";
 
 //img
-import logo from "../assets/imgs/logo.jpg";
+import logo from "../assets/imgs/logo.png";
 
 function Menu() {
 	return (

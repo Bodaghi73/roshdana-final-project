@@ -1,0 +1,46 @@
+@import "./style.scss";
+
+.courses {
+    background-color: $gray-dark-color;
+
+    .container {
+        .course-title {
+            position: relative;
+            color: $white;
+
+            span {
+                &::after {
+                   @extend %after-span;
+                }
+            }
+        }
+
+        .course {
+            article {
+                margin-bottom: 50px;
+
+                .course-icon{
+                    img{
+                        width: 80px;
+                        height: 85px;
+                    }
+                }
+
+                .course-text {
+                    color: $white;
+
+                    p {
+                        text-align: justify;
+                        font-size: small;
+                    }
+
+                    button {
+                        background-color: transparent;
+                        color: $white;
+                        font-size: small;
+                    }
+                }
+            }
+        }
+    }
+}

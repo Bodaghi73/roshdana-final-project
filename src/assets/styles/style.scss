@@ -1,4 +1,21 @@
 @import "~bootstrap/scss/bootstrap";
 
+*{
+    font-family: 'shabnam';
+}
 $background-color: #174b44;
 $yellow-color:#c39a3e;
+$gray-color:#969696;
+$gray-dark-color:#928a74;
+$green-dark-color:#596758;
+
+
+%after-span{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 5px;
+    background-color: $yellow-color;
+    bottom: -15px;
+    right: 0;
+}

@@ -1,0 +1,38 @@
+@import "./style.scss";
+
+.article {
+    section {
+        div {
+            &:first-child {
+                background-color: $yellow-color;
+            }
+
+            &:last-child {
+                background-color: $gray-color;
+            }
+
+            article {
+                color: $white;
+
+                p {
+                    text-align: justify;
+                }
+
+                button {
+                    padding: 10px 20px;
+                    background-color: transparent;
+                    color: $white;
+                    font-size: small;
+                    border: 1px solid $white;
+                    outline: none;
+                }
+
+                img {
+                    width: 120px;
+                    height: 170px;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
