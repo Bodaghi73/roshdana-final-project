@@ -4,6 +4,7 @@ import Article from "../components/article";
 import Course from "../components/course";
 import BuyCourse from "../components/buy-course";
 import Content from "../components/content";
+import Partners from "../components/partners";
 
 function Main() {
 	return (
@@ -13,6 +14,7 @@ function Main() {
 			<Course></Course>
 			<BuyCourse></BuyCourse>
 			<Content></Content>
+			<Partners></Partners>
 		</div>
 	);
 }

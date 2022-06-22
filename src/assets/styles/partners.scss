@@ -1,0 +1,31 @@
+@import "./style.scss";
+
+.partners {
+    .container {
+        .partners-title {
+            position: relative;
+            color: $gray-color;
+
+            span {
+                &::after {
+                    @extend %after-span;
+                }
+            }
+        }
+
+        section {
+            div {
+                margin-bottom: 25px;
+                border-radius: 10px;
+
+                .shadow-box {
+                    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+                }
+
+                img {
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
