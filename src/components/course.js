@@ -15,7 +15,7 @@ function Course() {
 			<div className=" container py-5">
 				<div className="course-title">
 					<h4>آخرین دوره های آیلتس ایز</h4>
-					<span>چرا باید آیلتی ایز را انتخاب کنم؟</span>
+					<span>چرا باید آیلتس ایز را انتخاب کنم؟</span>
 				</div>
 
 				<section className="course row mt-5">

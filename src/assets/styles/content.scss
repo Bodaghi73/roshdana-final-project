@@ -1,0 +1,32 @@
+@import "./style.scss";
+
+.contents {
+    background-color: $blue-white-color;
+
+    .container {
+        .content-title {
+            position: relative;
+            color: $gray-color;
+
+            span {
+                &::after {
+                    @extend %after-span;
+                }
+            }
+        }
+
+        .content {
+            article {
+                .icon {
+                    font-size: 80px;
+                }
+
+                p {
+                    text-align: justify;
+                    font-size: small;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}

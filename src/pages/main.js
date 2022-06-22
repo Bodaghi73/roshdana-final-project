@@ -3,6 +3,7 @@ import Menu from "../components/menu";
 import Article from "../components/article";
 import Course from "../components/course";
 import BuyCourse from "../components/buy-course";
+import Content from "../components/content";
 
 function Main() {
 	return (
@@ -11,6 +12,7 @@ function Main() {
 			<Article></Article>
 			<Course></Course>
 			<BuyCourse></BuyCourse>
+			<Content></Content>
 		</div>
 	);
 }
