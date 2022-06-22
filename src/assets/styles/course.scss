@@ -10,13 +10,7 @@
 
             span {
                 &::after {
-                    position: absolute;
-                    content: "";
-                    width: 100px;
-                    height: 5px;
-                    background-color: $yellow-color;
-                    bottom: -15px;
-                    right: 0;
+                   @extend %after-span;
                 }
             }
         }

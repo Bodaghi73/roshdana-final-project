@@ -23,7 +23,8 @@ function BuyCourse() {
 						<img src={course2} alt="course"></img>
 					</article>
 					<article className="col-lg-4 d-flex align-items-start">
-						<img src={course3} alt="course"></img>
+						<img src={course3
+						} alt="course"></img>
 					</article>
 				</section>
 			</div>
