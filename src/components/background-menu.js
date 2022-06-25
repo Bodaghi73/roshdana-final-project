@@ -1,3 +1,4 @@
+//components
 import Menu from "./menu";
 
 //style

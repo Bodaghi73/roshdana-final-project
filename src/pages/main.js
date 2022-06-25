@@ -10,7 +10,6 @@ import Blog from "../components/blog";
 function Main() {
 	return (
 		<div>
-			
 			<BackgroundMenu></BackgroundMenu>
 			<Article></Article>
 			<Course></Course>
