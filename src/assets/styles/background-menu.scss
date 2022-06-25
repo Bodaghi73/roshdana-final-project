@@ -1,0 +1,48 @@
+@import "./style.scss";
+
+.background-menu {
+    height: 100vh;
+    background-image: url(../imgs/Consult.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .container {
+        .logo {
+            img {
+                width: 120px;
+                height: 170px;
+                object-fit: contain;
+            }
+        }
+
+        .text-background {
+            p {
+                &:first-child {
+                    color: $yellow-color;
+                }
+            }
+
+            h1 {
+
+                // color: $black;
+                &>span {
+                    color: $blue-dark-color;
+                }
+            }
+
+            p {
+                &:last-child {
+                    color: $black;
+                }
+            }
+        }
+
+        .start {
+            button {
+                color: $yellow-color;
+                border: none;
+                @extend %button;
+            }
+        }
+    }
+}

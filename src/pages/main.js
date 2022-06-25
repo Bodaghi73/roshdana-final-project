@@ -1,5 +1,5 @@
 //pages & components
-import Menu from "../components/menu";
+import BackgroundMenu from "../components/background-menu";
 import Article from "../components/article";
 import Course from "../components/course";
 import BuyCourse from "../components/buy-course";
@@ -10,7 +10,8 @@ import Blog from "../components/blog";
 function Main() {
 	return (
 		<div>
-			<Menu></Menu>
+			
+			<BackgroundMenu></BackgroundMenu>
 			<Article></Article>
 			<Course></Course>
 			<BuyCourse></BuyCourse>
