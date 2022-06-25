@@ -30,27 +30,16 @@ function Menu() {
 						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 							<ul className="navbar-nav">
 								<li className="nav-item">
-									<a
-										className="nav-link dropdown-toggle"
-										href="/"
-										id="navbarDropdownMenuLink"
-										role="button"
-										data-bs-toggle="dropdown"
-										aria-expanded="false"
-									>
+									<a className="nav-link" href="/">
 										صفحه اصلی
 									</a>
 								</li>
-								<li className="nav-item">
+								<li className="nav-item dropdown">
 									<a
-										className="nav-link dropdown-toggle"
-										href="/"
-										id="navbarDropdownMenuLink"
-										role="button"
-										data-bs-toggle="dropdown"
-										aria-expanded="false"
+										className="nav-link"
+										href="/archive"
 									>
-										صفحات
+										آرشیو
 									</a>
 								</li>
 								<li className="nav-item">
@@ -83,7 +72,6 @@ function Menu() {
 							</ul>
 						</div>
 					</nav>
-					
 				</div>
 				<div className="start mb-5">
 					<button>شروع کنید</button>

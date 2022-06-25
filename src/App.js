@@ -4,6 +4,7 @@ import {BrowserRouter as Router,Routes, Route} from "react-router-dom";
 import Main from "./pages/main";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Archive from "./pages/archive";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Main/>}/>
+        <Route path="/archive" element={<Archive/>}/>
       </Routes>
       <Footer></Footer>
     </Router>

@@ -21,19 +21,22 @@
             }
 
             .header-links {
-                .header-menu {
-                    margin-left: 80px;
+                
+                nav {
+                    .header-menu {
+                        margin-left: 80px;
 
-                    ul {
-                        li {
-                            a {
-                                color: $white;
-                                font-size: small;
-
-                                &:hover {
-                                    background-color: rgba($color: $gray-200, $alpha: 0.2);
-                                    border-radius: 50px;
+                        ul {
+                            li {
+                                a {
                                     color: $white;
+                                    font-size: small;
+
+                                    &:hover {
+                                        background-color: rgba($color: $gray-200, $alpha: 0.2);
+                                        border-radius: 50px;
+                                        color: $white;
+                                    }
                                 }
                             }
                         }
