@@ -1,6 +1,7 @@
 //component
 import Logo from "./logo";
 import Article from "./article";
+import List from "./list";
 
 //style
 import "../assets/styles/ielts.scss";
@@ -84,6 +85,9 @@ function Ielts() {
 						</div>
 						<div className="mt-5">
 							<Article></Article>
+						</div>
+						<div className="mt-5">
+							<List></List>
 						</div>
 					</aside>
 				</div>
