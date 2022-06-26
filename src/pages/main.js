@@ -1,6 +1,7 @@
 //pages & components
 import BackgroundMenu from "../components/background-menu";
 import Article from "../components/article";
+import Logo from "../components/logo";
 import Course from "../components/course";
 import BuyCourse from "../components/buy-course";
 import Content from "../components/content";
@@ -11,7 +12,10 @@ function Main() {
 	return (
 		<div>
 			<BackgroundMenu></BackgroundMenu>
-			<Article></Article>
+			<div className="row m-0">
+				<Article></Article>
+				<Logo></Logo>
+			</div>
 			<Course></Course>
 			<BuyCourse></BuyCourse>
 			<Content></Content>

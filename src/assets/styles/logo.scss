@@ -1,0 +1,17 @@
+@import "./style.scss";
+
+.article-logo {
+    background-color: $gray-color;
+
+    .container {
+
+        article {
+            img {
+                width: 120px;
+                height: 170px;
+                object-fit: contain;
+            }
+        }
+
+    }
+}
