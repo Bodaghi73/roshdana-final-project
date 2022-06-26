@@ -1,0 +1,48 @@
+@import "./style.scss";
+
+.ielts {
+    .container {
+        .row {
+            .section {
+                .news-titr {
+                    margin-top: 50px;
+
+                    span {
+                        padding: 5px;
+                        color: $white;
+                        background-color: $green-dark-color;
+                    }
+                }
+
+                section {
+                    border: 3px solid $gray-light-color;
+
+                    p {
+                        text-align: justify;
+                    }
+
+                    .news {
+                        .news-text {
+                            position: relative;
+
+                            h5 {
+                                color: $green-dark-color;
+                            }
+
+                            span {
+                                &::before {
+                                    @extend %befor-span;
+                                }
+
+                                a {
+                                    text-decoration: none;
+                                    color: $green-dark-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

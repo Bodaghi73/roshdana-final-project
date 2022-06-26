@@ -5,13 +5,15 @@
 }
 $background-color: #174b44;
 $underline-color:#edbf47;
+$line-color:#c77000;
 $yellow-color:#c39a3e;
 $gray-color:#969696;
+$gray-light-color:#cdcdcd;
 $gray-dark-color:#928a74;
 $green-dark-color:#596758;
+$green-light-color:#168557;
 $blue-white-color:#f7f7f7;
 $blue-dark-color:#002cd2;
-$green-light-color:#168557;
 
 %button{
     padding: 10px 20px;
@@ -28,4 +30,14 @@ $green-light-color:#168557;
     background-color: $underline-color;
     bottom: -15px;
     right: 0;
+}
+
+%befor-span{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 30px;
+    background-color: $line-color;
+    bottom: 10px;
+    right: 10px;
 }

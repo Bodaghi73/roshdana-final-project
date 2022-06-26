@@ -3,22 +3,18 @@
 .article {
     background-color: $yellow-color;
 
-    .container {
+    article {
+        color: $white;
 
+        p {
+            text-align: justify;
+        }
 
-        article {
+        button {
+            background-color: transparent;
             color: $white;
-
-            p {
-                text-align: justify;
-            }
-
-            button {
-                background-color: transparent;
-                color: $white;
-                border: 1px solid $white;
-                @extend %button;
-            }
+            border: 1px solid $white;
+            @extend %button;
         }
     }
 }
