@@ -1,6 +1,6 @@
 //pages & components
 import BackgroundMenu from "../components/background-menu";
-import Article from "../components/article";
+import ArticleRow from "../components/article-row";
 import Course from "../components/course";
 import BuyCourse from "../components/buy-course";
 import Content from "../components/content";
@@ -11,7 +11,7 @@ function Main() {
 	return (
 		<div>
 			<BackgroundMenu></BackgroundMenu>
-			<Article></Article>
+			<ArticleRow></ArticleRow>
 			<Course></Course>
 			<BuyCourse></BuyCourse>
 			<Content></Content>

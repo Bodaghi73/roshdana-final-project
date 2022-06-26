@@ -1,0 +1,17 @@
+@import "./style.scss";
+
+.list-box{
+    background-color: $green-dark-color;
+    .list{
+        table{
+            color: $white;
+            tbody{
+                tr{
+                    td{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

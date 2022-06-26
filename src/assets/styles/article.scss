@@ -1,36 +1,20 @@
 @import "./style.scss";
 
 .article {
-    section {
-        div {
-            &:first-child {
-                background-color: $yellow-color;
-            }
+    background-color: $yellow-color;
 
-            &:last-child {
-                background-color: $gray-color;
-            }
+    article {
+        color: $white;
 
-            article {
-                color: $white;
+        p {
+            text-align: justify;
+        }
 
-                p {
-                    text-align: justify;
-                }
-
-                button {
-                    background-color: transparent;
-                    color: $white;
-                    border: 1px solid $white;
-                    @extend %button;
-                }
-
-                img {
-                    width: 120px;
-                    height: 170px;
-                    object-fit: contain;
-                }
-            }
+        button {
+            background-color: transparent;
+            color: $white;
+            border: 1px solid $white;
+            @extend %button;
         }
     }
 }
